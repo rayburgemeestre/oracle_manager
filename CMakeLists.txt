@@ -4,7 +4,7 @@ project(oracle_manager)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES main.cpp)
-add_executable(oracle_manager ${SOURCE_FILES} NewCppClass.cpp NewCppClass.h)
+add_executable(oracle_manager ${SOURCE_FILES})
 
 INCLUDE_DIRECTORIES(/opt/oracle/product/11.2.0/dbhome_1/rdbms/public)
 
