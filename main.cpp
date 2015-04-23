@@ -182,6 +182,7 @@ int main() {
     char *aa;
     aa = select_sql(a);
     cout << aa << endl;
+    cout << "test" << endl;
 //    Connection* con = env->createConnection(dbSetting.user, dbSetting.password, dbSetting.server);
 //    char aaa[] = "insert into CONTENT_INFO VALUES ('6943f23e-926d-11e4-8feb-60d8194fce1f', 'test_once', 'hello world,it is just a test!你好世界，这只是一个测试！')";
 //    execute_sql(con, aaa);
